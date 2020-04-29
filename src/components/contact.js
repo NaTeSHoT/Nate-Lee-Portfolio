@@ -44,18 +44,15 @@ class Contact extends Component {
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style = {{fontSize: '25px', fontFamily: 'Anton'}}>
-                                        <i className = "fa fa-skype" aria-hidden = "true"/>
-                                        My Skype
+                                        <i className = "fa fa-github-square" aria-hidden = "true"/>
+                                        github.com/NaTeSHoT
                                        
                                     </ListItemContent>
                                 </ListItem>
                         </List>
                        </div>
-
                     </Cell>
                 </Grid>
-
-
             </div>
         )
     }

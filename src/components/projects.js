@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl'
+import {Redirect, Router} from 'react-router-dom'
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -7,6 +8,7 @@ class Projects extends Component {
             activeTab: 0
         }
     }
+  
     toggleCategories() {
         
         if (this.state.activeTab === 0) {
@@ -15,17 +17,18 @@ class Projects extends Component {
                 <div className = 'projects-grid'>
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
-                        <CardTitle style = {{color:'black', height: '176px',  background: 
-                        'url(https://www.chip.de/ii/7/9/0/9/0/6/6/4/0fc51f82e036e1d3.jpg) center/ cover'}}>Java Project #1</CardTitle>
+                        <CardTitle style = {{color:'white', height: '176px',  background: 
+                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Java Project #1</CardTitle>
                         <CardText>
-                            Description Goes Here
+                            An interactive drawing GUI App that uses JavaFX
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
+                            <Button href = "https://github.com/NaTeSHoT/Interactive-Drawing-GUI-Application" colored>GitHub</Button>
+                            
                             
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
-                            <IconButton name = "share"/>
+                            <IconButton name = "N"/>
                         </CardMenu>
                     </Card>
                     
@@ -39,16 +42,16 @@ class Projects extends Component {
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
                         <CardTitle style = {{color:'white', height: '176px',  background: 
-                        'url(https://hackr.io/tutorials/learn-assembly-language/logo/logo-assembly-language?ver=1557983975) center/ cover'}}>Assembly Project #1</CardTitle>
+                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Assembly Project #1</CardTitle>
                         <CardText>
-                            Description Goes Here
+                            A Full Adder Circuit Simulator created through Assembly Language Programming
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
+                            <Button href = "https://github.com/NaTeSHoT/Full-Adder-Circuit" colored>GitHub</Button>
                             
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
-                            <IconButton name = "share"/>
+                            <IconButton name = "N"/>
                         </CardMenu>
                     </Card>
                 </div>
@@ -60,17 +63,17 @@ class Projects extends Component {
                 <div className = 'projects-grid'>
                 <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
-                    <CardTitle style = {{color:'black', height: '176px',  background: 
-                    'url(https://www.chip.de/ii/7/9/0/9/0/6/6/4/0fc51f82e036e1d3.jpg) center/ cover'}}>C++ Project #1</CardTitle>
+                    <CardTitle style = {{color:'white', height: '176px',  background: 
+                    'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>C++ Project #1</CardTitle>
                     <CardText>
-                        Description Goes Here
+                        A program that reads school transcript text files and outputs student information and calculated major and overall GPA
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
+                        <Button href = "https://github.com/NaTeSHoT/Student-Transcript-Evaluator" colored>GitHub</Button>
                         
                     </CardActions>
                     <CardMenu style = {{color:'#fff'}}>
-                        <IconButton name = "share"/>
+                        <IconButton name = "N"/>
                     </CardMenu>
                 </Card>
             </div>
@@ -82,17 +85,17 @@ class Projects extends Component {
                 <div className = 'projects-grid'>
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
-                        <CardTitle style = {{color:'black', height: '176px',  background: 
-                        'url(https://www.chip.de/ii/7/9/0/9/0/6/6/4/0fc51f82e036e1d3.jpg) center/ cover'}}>React Project #1</CardTitle>
+                        <CardTitle style = {{color:'white', height: '176px',  background: 
+                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>React Project #1</CardTitle>
                         <CardText>
-                            Description Goes Here
+                            An interactive web app that is currently in progress
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
+                            <Button href = "https://github.com/NaTeSHoT/movie101" colored>GitHub</Button>
                             
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
-                            <IconButton name = "share"/>
+                            <IconButton name = "N"/>
                         </CardMenu>
                     </Card>
                 </div>

@@ -18,18 +18,18 @@ class Resume extends Component {
 
                         </div>
                         <h2 style = {{paddTop: '2em'}}>Nathaniel Lee</h2>
-                        <h4 style = {{color: 'grey'}}>Programmer</h4>
+                        <h4 style = {{color: 'grey'}}>Student at UC Santa Cruz</h4>
                         <hr style = {{borderTop: '3px solid #833fb2', width: '-50%'}}/>
-                        <p>I need to write a short description of my experience here</p>
+                        <p>I am pursuing a Bachelor's Degree in Computer Science</p>
                         <hr style = {{borderTop: '3px solid #833fb2', width: '-50%'}}/>
-                        <h5>Address</h5>
-                        <p>516 Balmoral Ct Sar Ramon, CA</p>
+                        <h5>Home</h5>
+                        <p>San Ramon, California</p>
                         <h5>Phone</h5>
-                        <p>9259995426</p>
+                        <p>(925)-999-5426</p>
                         <h5>Email</h5>
                         <p>nathaniel902@gmail.com</p>
                         <h5>Web</h5>
-                        <p>https://nate-lee-portfolio.firebaseapp.com/</p>
+                        <p>https://nate-lee-portfolio.web.app/</p>
                         <hr style = {{borderTop: '3px solid #833fb2', width: '-50%'}}/>
                     </Cell>
                     <Cell className = 'resume-right-col' col = {8}>
@@ -38,54 +38,70 @@ class Resume extends Component {
                         <Education 
                         startYear = {2020} 
                         endYear = {2022}
-                        schoolName = "UCSC"
-                        schoolDescription = "my recent school, i am studying ...."
+                        schoolName = "University of California, Santa Cruz"
+                        schoolDescription = "Major: Computer Science"
                         />
 
                         <Education 
                         startYear = {2019} 
                         endYear = {2020}
-                        schoolName = "DVC"
-                        schoolDescription = "my recent school, i am studying ...."
+                        schoolName = "Diablo Valley College"
+                        schoolDescription = "Major: Computer Science"
+                        courses = "Relevant Course Work: Multivariable Vector Calculus for Engineers III, Advanced Programming in C and C++, Discrete Mathematics, Physics for Engineers II: Thermodynamics and Electromagnetism, Object-Oriented Programming in C++, Linear Algebra, Differential Equations, Assembly Language Programming, Program Design and Data Structures "
                         />
                          <Education 
                         startYear = {2018} 
                         endYear = {2019}
-                        schoolName = "ASU"
-                        schoolDescription = "my recent school, i am studying ...."
+                        schoolName = "Arizona State University"
+                        schoolDescription = "Major: Computer Science"
+                        courses = "Relevant Course Work: Principles of Programming, Calculus for Engineers I, Physics for Engineers I: Mechanics, Object-Oriented Programming in Java and Data Structures, Calculus for Engineers II "
                         />
 
                         <hr style = {{borderTOp: '3px solid #e22947'}}/>
                         <h2>Experience</h2>
                         <Experience
-                        startYear = {2019}
+                        startYear = {'July' + ' '+ 2019}
                         endYear = {'Present'}
-                        jobName = {'Tutor'}
-                        jobDescription = {'first good job'}
+                        jobName = {'Computer Science Tutor'}
+                        jobDescription = {'My own tutoring business in San Ramon, California where I help assist high schoolers in their advanced programming courses.'}
                         />
                          <Experience
-                        startYear = {2019}
+                        startYear = {'August' + ' '+ 2019}
                         endYear = {'Present'}
-                        jobName = {'Teacher'}
-                        jobDescription = {'second good job'}
+                        jobName = {'Computer Science Instructor at Brilliant Minds Academy'}
+                        jobDescription = {'I teach the fundamentals of programming in C++ and Java at Brilliant Minds Academy in Pleasanton, California.'}
                         />
                          <hr style = {{borderTOp: '3px solid #e22947'}}/>
                          <h2>Skills</h2>
                          <Skills
-                         skill = 'javascript'
-                         progress = {100}
+                         skill = 'JavaScript'
+                         progress = {60}
                          />
                          <Skills
-                         skill = 'react'
-                         progress = {30}
-                         />
-                          <Skills
-                         skill = 'c++'
+                         skill = 'ReactJS'
                          progress = {50}
                          />
-                         
-
-
+                          <Skills
+                         skill = 'C++'
+                         progress = {80}
+                         />
+                          <Skills
+                         skill = 'Java'
+                         progress = {75}
+                         />
+                          <Skills
+                         skill = 'Assembly Language'
+                         progress = {80}
+                         />
+                          <Skills
+                         skill = 'HTML/CSS'
+                         progress = {40}
+                         />
+                          <Skills
+                         skill = 'Heavy Lifting'
+                         progress = {95}
+                         />
+                    
 
                     </Cell>
                 </Grid>

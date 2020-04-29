@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Grid, Cell} from 'react-mdl'
+import {Link} from 'react-router-dom'
 class Landing extends Component {
     render() {
         return (
@@ -12,19 +13,21 @@ class Landing extends Component {
                             className = "avatar-img"
                         />
                         <div className = "banner-text">
-                            <h1>Computer Science Student at UC Santa Cruz</h1>
+                            <h1>Computer Science Student (Portfolio still in BETA)</h1>
                         <hr/>
                         <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | C++ | Java | Assembly </p>
                         <div className = "social-links">
 
-                            {/** LinkedIn */}
-                            <a href = "http://google.com" target = "_blank" rel = "noopener noreferrer">
+                            {/** GitHub */}
+                            <a href = "http://github.com/NaTeSHoT" target = "_blank" rel = "noopener noreferrer">
                                 <i className = "fa fa-github-square"  aria-hidden = "true"/>
                             </a>
-                             {/** Github */}
-                             <a href = "http://google.com" target = "_blank" rel = "noopener noreferrer">
+                             {/** LinkedIn */}
+                           
+                             <a href = "http://www.linkedin.com/in/nateshot/" target = "_blank" rel = "noopener noreferrer">
                                 <i className = "fa fa-linkedin-square"  aria-hidden = "true"/>
                             </a>
+                           
                             
 
                         </div>
