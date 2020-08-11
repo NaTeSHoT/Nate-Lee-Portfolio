@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl'
-import {Redirect, Router} from 'react-router-dom'
+
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -23,7 +23,7 @@ class Projects extends Component {
                             An interactive drawing GUI App that uses JavaFX
                         </CardText>
                         <CardActions border>
-                            <Button href = "https://github.com/NaTeSHoT/Interactive-Drawing-GUI-Application" colored>GitHub</Button>
+                            <Button href = "https://github.com/nateelee/Interactive-Drawing-GUI-Application" colored>GitHub</Button>
                             
                             
                         </CardActions>
@@ -47,7 +47,7 @@ class Projects extends Component {
                             A Full Adder Circuit Simulator created through Assembly Language Programming
                         </CardText>
                         <CardActions border>
-                            <Button href = "https://github.com/NaTeSHoT/Full-Adder-Circuit" colored>GitHub</Button>
+                            <Button href = "https://github.com/nateelee/Full-Adder-Circuit" colored>GitHub</Button>
                             
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
@@ -69,7 +69,7 @@ class Projects extends Component {
                         A program that reads school transcript text files and outputs student information and calculated major and overall GPA
                     </CardText>
                     <CardActions border>
-                        <Button href = "https://github.com/NaTeSHoT/Student-Transcript-Evaluator" colored>GitHub</Button>
+                        <Button href = "https://github.com/nateelee/Student-Transcript-Evaluator" colored>GitHub</Button>
                         
                     </CardActions>
                     <CardMenu style = {{color:'#fff'}}>
@@ -91,7 +91,7 @@ class Projects extends Component {
                             An interactive web app that is currently in progress
                         </CardText>
                         <CardActions border>
-                            <Button href = "https://github.com/NaTeSHoT/movie101" colored>GitHub</Button>
+                            <Button href = "https://github.com/nateelee/movie101" colored>GitHub</Button>
                             
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
@@ -105,7 +105,7 @@ class Projects extends Component {
     
     render() {
         return (
-            <div className = "category-tabs">
+            <div className = "flex flex-col items-center  w-screen bg-gray-200 h-screen">
                 <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState({activeTab: tabId})} ripple> 
                     <Tab>Java</Tab>
                     <Tab>Assembly</Tab>
@@ -113,12 +113,13 @@ class Projects extends Component {
                     <Tab>React</Tab>
 
                 </Tabs>
-              
+                <div class = "bg-gray-200">
                     <Grid>
                         <Cell col = {12}>
                             <div className = "content"> {this.toggleCategories()}</div>
                         </Cell>
                     </Grid>
+                </div>
                
             </div>
         )

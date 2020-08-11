@@ -39,26 +39,28 @@
   padding-top:5em;
 }
 .banner-text {
-  background-color: black;
+  background-color: #edf2f7;
   opacity: .8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  text-align: center;
+  
 }
 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color:white;
+  color:#2d3748;
 }
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px dotted #2d3748;;
   width: 50%;
   margin: auto;
 
 }
 .banner-text p {
-  color:white;
+  color:#2d3748;
   font-size: 20px;
   padding: 1em;
 }
@@ -70,7 +72,7 @@
   margin: auto;
 }
 .social-links i {
-  color: white;
+  color: #2d3748;
   font-size: 5em;
   padding: 8px;
 }
@@ -111,9 +113,10 @@
 }
 /* Resume Page css*/
 .resume-right-col {
-  background: #27221F;
-  color: white;
+  background: #edf2f7;
+  color: #2d3748;
   padding: 2em;
+
 }
 .App-header {
   background-color:#222;

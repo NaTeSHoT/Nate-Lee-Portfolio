@@ -7,30 +7,30 @@ import Skills from './skills'
 class Resume extends Component {
     render() {
         return (
-            <div>
+            <div class = "bg-gray-800">
                 <Grid>
                     <Cell col = {4}>
-                        <div style = {{textAlign: 'center'}}>
-                            <img src = "https://avatarfiles.alphacoders.com/131/131718.jpg"
+                        <div class = "items-center justify-center flex">
+                            <img src = "https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/IMG_9901.jpeg?alt=media&token=7052d0c6-49b1-4825-847f-93fc841374fd"
                             alt = "avatar"
                             style = {{height: '200px'}}
                             />
 
                         </div>
-                        <h2 style = {{paddTop: '2em'}}>Nathaniel Lee</h2>
-                        <h4 style = {{color: 'grey'}}>Student at UC Santa Cruz</h4>
-                        <hr style = {{borderTop: '3px solid #833fb2', width: '-50%'}}/>
-                        <p>I am pursuing a Bachelor's Degree in Computer Science</p>
-                        <hr style = {{borderTop: '3px solid #833fb2', width: '-50%'}}/>
-                        <h5>Home</h5>
-                        <p>San Ramon, California</p>
-                        <h5>Phone</h5>
-                        <p>(925)-999-5426</p>
-                        <h5>Email</h5>
-                        <p>nathaniel902@gmail.com</p>
-                        <h5>Web</h5>
-                        <p>https://nate-lee-portfolio.web.app/</p>
-                        <hr style = {{borderTop: '3px solid #833fb2', width: '-50%'}}/>
+                        <h2 class = "text-white" style = {{paddTop: '2em'}}>Nathaniel Lee</h2>
+                        <h4 style = {{color: 'white'}}>Student at UC Santa Cruz</h4>
+                        <hr style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
+                        <p class = "text-white">I am pursuing a Bachelor's Degree in Computer Science</p>
+                        <hr style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
+                        <h5 class = "text-white">Location</h5>
+                        <p class = "text-white">San Ramon, California</p>
+                        <h5 class = "text-white">Phone</h5>
+                        <p class = "text-white">(925)-999-5426</p>
+                        <h5 class = "text-white">Email</h5>
+                        <p class = "text-white">nathaniel902@gmail.com</p>
+                        <h5 class = "text-white">Web</h5>
+                        <p class = "text-white">https://nate-lee-portfolio.web.app/</p>
+                        <hr style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
                     </Cell>
                     <Cell className = 'resume-right-col' col = {8}>
                         <h2>Education</h2>  
@@ -40,6 +40,7 @@ class Resume extends Component {
                         endYear = {2022}
                         schoolName = "University of California, Santa Cruz"
                         schoolDescription = "Major: Computer Science"
+                        courses = "Relevant Course Work: Advanced Data Structures and Algorithms, Computer Architecture, Operating Systems"
                         />
 
                         <Education 
@@ -57,7 +58,7 @@ class Resume extends Component {
                         courses = "Relevant Course Work: Principles of Programming, Calculus for Engineers I, Physics for Engineers I: Mechanics, Object-Oriented Programming in Java and Data Structures, Calculus for Engineers II "
                         />
 
-                        <hr style = {{borderTOp: '3px solid #e22947'}}/>
+                        <hr style = {{borderTop: '3px solid #7f9cf5'}}/>
                         <h2>Experience</h2>
                         <Experience
                         startYear = {'July' + ' '+ 2019}
@@ -71,7 +72,7 @@ class Resume extends Component {
                         jobName = {'Computer Science Instructor at Brilliant Minds Academy'}
                         jobDescription = {'I teach the fundamentals of programming in C++ and Java at Brilliant Minds Academy in Pleasanton, California.'}
                         />
-                         <hr style = {{borderTOp: '3px solid #e22947'}}/>
+                         <hr style = {{borderTop: '3px solid #7f9cf5'}}/>
                          <h2>Skills</h2>
                          <Skills
                          skill = 'JavaScript'
