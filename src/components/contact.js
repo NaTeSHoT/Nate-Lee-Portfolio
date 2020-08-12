@@ -3,7 +3,7 @@ class Contact extends Component {
     render() {
         return (
             <div class = "bg-gray-200 w-screen flex flex-col items-center justify-center pt-4">
-                <div class = "mt-40 sm:mt-0 flex flex-col w-5/6 sm:w-2/3 bg-gray-400 bg-opacity-50 items-center justify-center rounded ">
+                <div class = "mt-24 sm:mt-0 flex flex-col w-5/6 sm:w-2/3 bg-gray-400 bg-opacity-50 items-center justify-center rounded ">
                     <h1 class = "text-gray-800 sm:text-6xl text-3xl font-bold">Feel free to reach out!</h1>
                     <div class = "flex text-gray-800 text-lg sm:text-2xl items-center justify-between"> 
                         <i className = "fa fa-phone -square fa-2x pr-4" aria-hidden = "true"/>
