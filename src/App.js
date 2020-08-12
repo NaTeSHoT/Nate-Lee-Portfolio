@@ -11,20 +11,20 @@ class App extends Component {
   render () {
     return (
       <div>
-       <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-      <ReactBootStrap.Navbar.Brand href="/">MyPortfolio</ReactBootStrap.Navbar.Brand>
-      <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
-        <ReactBootStrap.Nav className="mr-auto">      
-        </ReactBootStrap.Nav>
-        <ReactBootStrap.Nav >
-        <ReactBootStrap.Nav.Link href="/resume">Resume</ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="/about">About</ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="/projects">Projects</ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="/contact">Contact</ReactBootStrap.Nav.Link>
-        </ReactBootStrap.Nav>
-      </ReactBootStrap.Navbar.Collapse>
-    </ReactBootStrap.Navbar>
+        <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <ReactBootStrap.Navbar.Brand href="/">Nate's Portfolio</ReactBootStrap.Navbar.Brand>
+            <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+              <ReactBootStrap.Nav className="mr-auto">      
+              </ReactBootStrap.Nav>
+            <ReactBootStrap.Nav >
+              <ReactBootStrap.Nav.Link href="/resume">Resume</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/about">About</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/projects">Projects</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/contact">Contact</ReactBootStrap.Nav.Link>
+            </ReactBootStrap.Nav>
+          </ReactBootStrap.Navbar.Collapse>
+        </ReactBootStrap.Navbar>
           <Drawer  title= {<Link style = {{textDecoration: 'none', color: 'black'}} to = "/">MyPortfolio</Link>}>
               <Navigation>
                   <Link to ="/">Home</Link>
@@ -34,11 +34,8 @@ class App extends Component {
                   <Link to="/contact">Contact</Link>
               </Navigation>
           </Drawer>
-          
               <div className="" />
               <Main/>
-          
-     
     </div>
     );
   }

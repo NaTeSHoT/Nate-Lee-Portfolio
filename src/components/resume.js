@@ -61,14 +61,20 @@ class Resume extends Component {
                         <hr style = {{borderTop: '3px solid #7f9cf5'}}/>
                         <h2>Experience</h2>
                         <Experience
-                        startYear = {'July' + ' '+ 2019}
+                        startYear = {'March' + ' '+ 2020}
                         endYear = {'Present'}
+                        jobName = {'Full Stack Web Developer at PN'}
+                        jobDescription = {'My work consisted of single paged application developement using the React library.'}
+                        />
+                        <Experience
+                        startYear = {'July' + ' '+ 2019}
+                        endYear = {'March' + ' '+ 2020}
                         jobName = {'Computer Science Tutor'}
                         jobDescription = {'My own tutoring business in San Ramon, California where I help assist high schoolers in their advanced programming courses.'}
                         />
                          <Experience
                         startYear = {'August' + ' '+ 2019}
-                        endYear = {'Present'}
+                        endYear = {'March' + ' '+ 2020}
                         jobName = {'Computer Science Instructor at Brilliant Minds Academy'}
                         jobDescription = {'I teach the fundamentals of programming in C++ and Java at Brilliant Minds Academy in Pleasanton, California.'}
                         />
@@ -76,19 +82,19 @@ class Resume extends Component {
                          <h2>Skills</h2>
                          <Skills
                          skill = 'JavaScript'
-                         progress = {60}
+                         progress = {75}
                          />
                          <Skills
                          skill = 'ReactJS'
-                         progress = {50}
+                         progress = {75}
                          />
                           <Skills
                          skill = 'C++'
-                         progress = {80}
+                         progress = {85}
                          />
                           <Skills
                          skill = 'Java'
-                         progress = {75}
+                         progress = {80}
                          />
                           <Skills
                          skill = 'Assembly Language'
@@ -96,7 +102,7 @@ class Resume extends Component {
                          />
                           <Skills
                          skill = 'HTML/CSS'
-                         progress = {40}
+                         progress = {60}
                          />
                           <Skills
                          skill = 'Heavy Lifting'

@@ -18,7 +18,7 @@ class Projects extends Component {
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
                         <CardTitle style = {{color:'white', height: '176px',  background: 
-                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Java Project #1</CardTitle>
+                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Interactive Drawing App</CardTitle>
                         <CardText>
                             An interactive drawing GUI App that uses JavaFX
                         </CardText>
@@ -42,7 +42,7 @@ class Projects extends Component {
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
                         <CardTitle style = {{color:'white', height: '176px',  background: 
-                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Assembly Project #1</CardTitle>
+                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Full Adder Circuit</CardTitle>
                         <CardText>
                             A Full Adder Circuit Simulator created through Assembly Language Programming
                         </CardText>
@@ -64,13 +64,12 @@ class Projects extends Component {
                 <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
                     <CardTitle style = {{color:'white', height: '176px',  background: 
-                    'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>C++ Project #1</CardTitle>
+                    'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Transcript Evaluator</CardTitle>
                     <CardText>
                         A program that reads school transcript text files and outputs student information and calculated major and overall GPA
                     </CardText>
                     <CardActions border>
                         <Button href = "https://github.com/nateelee/Student-Transcript-Evaluator" colored>GitHub</Button>
-                        
                     </CardActions>
                     <CardMenu style = {{color:'#fff'}}>
                         <IconButton name = "N"/>
@@ -84,15 +83,16 @@ class Projects extends Component {
                 // react single proj
                 <div className = 'projects-grid'>
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
-
                         <CardTitle style = {{color:'white', height: '176px',  background: 
-                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>React Project #1</CardTitle>
+                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Screenbook</CardTitle>
                         <CardText>
-                            An interactive web app that is currently in progress
+                            A social platform where users can review and share movies. This is a single page application that 
+                            was created through the React library and router. Several other APIs were utilized such as Google's Login,
+                            Firebase Database and Storage, and a Movie Database.
                         </CardText>
                         <CardActions border>
                             <Button href = "https://github.com/nateelee/movie101" colored>GitHub</Button>
-                            
+                            <Button href = "https://screenbook-pn.web.app/" colored>Screenbook</Button>
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
                             <IconButton name = "N"/>
