@@ -27,7 +27,7 @@ class Resume extends Component {
                         <h5 class = "text-white text-2xl pt-4">Phone</h5>
                         <p class = "text-white text-xl pt-4">(925)-999-5426</p>
                         <h5 class = "text-white text-2xl pt-4">Email</h5>
-                        <p class = "text-white text-xl pt-4">nathaniel902@gmail.com</p>
+                        <p class = "text-white text-xl pt-4">naelee@ucsc.edu</p>
                         <h5 class = "text-white text-2xl pt-4">Web</h5>
                         <p class = "text-white text-xl pt-4 pb-4">https://nate-lee-portfolio.web.app/</p>
                         <hr class = "pt-2" style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
