@@ -17,23 +17,23 @@ class Resume extends Component {
                             />
 
                         </div>
-                        <h2 class = "text-white" style = {{paddTop: '2em'}}>Nathaniel Lee</h2>
-                        <h4 style = {{color: 'white'}}>Student at UC Santa Cruz</h4>
-                        <hr style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
-                        <p class = "text-white">I am pursuing a Bachelor's Degree in Computer Science</p>
-                        <hr style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
-                        <h5 class = "text-white">Location</h5>
-                        <p class = "text-white">San Ramon, California</p>
-                        <h5 class = "text-white">Phone</h5>
-                        <p class = "text-white">(925)-999-5426</p>
-                        <h5 class = "text-white">Email</h5>
-                        <p class = "text-white">nathaniel902@gmail.com</p>
-                        <h5 class = "text-white">Web</h5>
-                        <p class = "text-white">https://nate-lee-portfolio.web.app/</p>
-                        <hr style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
+                        <h2 class = "text-white pt-8 text-5xl">Nathaniel Lee</h2>
+                        <h4 class = "text-white pt-4 text-2xl pb-4">Student at UC Santa Cruz</h4>
+                        <hr  style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
+                        <p class = "text-white py-4 text-xl">I am pursuing a Bachelor's Degree in Computer Science</p>
+                        <hr  style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
+                        <h5 class = "text-white text-2xl pt-4">Location</h5>
+                        <p class = "text-white text-xl pt-4">San Ramon, California</p>
+                        <h5 class = "text-white text-2xl pt-4">Phone</h5>
+                        <p class = "text-white text-xl pt-4">(925)-999-5426</p>
+                        <h5 class = "text-white text-2xl pt-4">Email</h5>
+                        <p class = "text-white text-xl pt-4">nathaniel902@gmail.com</p>
+                        <h5 class = "text-white text-2xl pt-4">Web</h5>
+                        <p class = "text-white text-xl pt-4 pb-4">https://nate-lee-portfolio.web.app/</p>
+                        <hr class = "pt-2" style = {{borderTop: '3px solid #7f9cf5', width: '-50%'}}/>
                     </Cell>
                     <Cell className = 'resume-right-col' col = {8}>
-                        <h2>Education</h2>  
+                        <h2 class = "text-5xl pb-4">Education</h2>  
 
                         <Education 
                         startYear = {2020} 
@@ -58,8 +58,8 @@ class Resume extends Component {
                         courses = "Relevant Course Work: Principles of Programming, Calculus for Engineers I, Physics for Engineers I: Mechanics, Object-Oriented Programming in Java and Data Structures, Calculus for Engineers II "
                         />
 
-                        <hr style = {{borderTop: '3px solid #7f9cf5'}}/>
-                        <h2>Experience</h2>
+                        <hr class = "py-4"style = {{borderTop: '3px solid #7f9cf5'}}/>
+                        <h2 class = "text-5xl pb-4">Experience</h2>
                         <Experience
                         startYear = {'March' + ' '+ 2020}
                         endYear = {'Present'}
@@ -78,8 +78,8 @@ class Resume extends Component {
                         jobName = {'Computer Science Instructor at Brilliant Minds Academy'}
                         jobDescription = {'I teach the fundamentals of programming in C++ and Java at Brilliant Minds Academy in Pleasanton, California.'}
                         />
-                         <hr style = {{borderTop: '3px solid #7f9cf5'}}/>
-                         <h2>Skills</h2>
+                         <hr class = "py-4" style = {{borderTop: '3px solid #7f9cf5'}}/>
+                         <h2 class = "text-5xl pb-4">Skills</h2>
                          <Skills
                          skill = 'JavaScript'
                          progress = {75}
