@@ -81,18 +81,32 @@ class Projects extends Component {
         else if(this.state.activeTab === 3) {
             return (
                 // react single proj
-                <div className = 'projects-grid'>
+                <div className = 'flex justify-between items-center w-full h-auto flex-col sm:flex-row'>
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Screenbook</CardTitle>
-                        <CardText>
-                            A social platform where users can review and share movies. This is a single page application that 
-                            was created through the React library and router. Several other APIs were utilized such as Google's Login,
-                            Firebase Database and Storage, and a Movie Database.
+                        <CardText style = {{height: '150px'}}>
+                                A social platform where users can review and share movies. This is a single page application that 
+                                was created through the React library and router. Several other APIs were utilized such as Google's Login,
+                                Firebase Database and Storage, and a Movie Database.
                         </CardText>
                         <CardActions border>
                             <Button href = "https://github.com/nateelee/movie101" colored>GitHub</Button>
                             <Button href = "https://screenbook-pn.web.app/" colored>Screenbook</Button>
+                        </CardActions>
+                        <CardMenu style = {{color:'#fff'}}>
+                            <IconButton name = "N"/>
+                        </CardMenu>
+                    </Card>
+                    <div class = "w-4 h-4"></div>
+                    <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style = {{color:'white', height: '176px',  background: 
+                        'url(https://images.all-free-download.com/images/graphiclarge/black_velvet_203064.jpg) center/ cover'}}>Nate's Portfolio</CardTitle>
+                        <CardText style = {{height: '150px'}}>
+                            You're on it right now! This is where I showcase my work and personal information.
+                        </CardText>
+                        <CardActions border>
+                            <Button href = "https://github.com/nateelee/Nate-Lee-Portfolio" colored>GitHub</Button>
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
                             <IconButton name = "N"/>
