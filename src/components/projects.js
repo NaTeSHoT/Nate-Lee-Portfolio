@@ -44,7 +44,7 @@ class Projects extends Component {
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Full Adder Circuit</CardTitle>
                         <CardText>
-                            A Full Adder Circuit Simulator created through Assembly Language Programming
+                            A Full Adder Circuit Simulator created through x86 Assembly Language Programming
                         </CardText>
                         <CardActions border>
                             <Button href = "https://github.com/nateelee/Full-Adder-Circuit" colored>GitHub</Button>
@@ -80,7 +80,7 @@ class Projects extends Component {
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Vehicle Maintenace Program</CardTitle>
                         <CardText style = {{height: '175'}}>
-                            This program uses inheritance with multiple types of vehicles stemming from one vehicle parent class. And deriving multiple functions and data. 
+                            This program uses inheritance with multiple types of vehicles stemming from one vehicle parent class. Multiple functions and data are derived from the vehicle parent class. 
                         </CardText>
                         <CardActions border>
                             <Button href = "https://github.com/nateelee/Vehicle-Maintenace-Program" colored>GitHub</Button>
@@ -117,7 +117,7 @@ class Projects extends Component {
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Nate's Portfolio</CardTitle>
                         <CardText style = {{height: '175'}}>
-                            You're on it right now! This is where I showcase my work and where you can learn more about me.
+                            You're on it right now! Created with the React library, this application best represents my work and where you can learn more about me. 
                         </CardText>
                         <CardActions border>
                             <Button href = "https://github.com/nateelee/Nate-Lee-Portfolio" colored>GitHub</Button>
@@ -131,17 +131,32 @@ class Projects extends Component {
         }
         else if (this.state.activeTab === 4) {
             return (
+                // python
                 <div className = 'projects-grid'>
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Weather Tracker</CardTitle>
-                        <CardText>
+                        <CardText style = {{height:'175'}}>
                             This application utilizes python and Django to read JSON files from the OpenWeather API and display real-time weather forecasts.
                         </CardText>
                         <CardActions border>
                             <Button href = "https://github.com/nateelee/Weather-Tracker" colored>GitHub</Button>
                             <Button href = "http://nateelee.pythonanywhere.com/" colored>Weather Tracker</Button>
+                        </CardActions>
+                        <CardMenu style = {{color:'#fff'}}>
+                            <IconButton name = "N"/>
+                        </CardMenu>
+                    </Card>
+                    <div class = "w-4 h-4"></div>
+                    <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style = {{color:'white', height: '176px',  background: 
+                        'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Hangman</CardTitle>
+                        <CardText style = {{height: '175'}}>
+                            A python program that simulates the hangman game. To use the game, first create a directory with these files. Then open the terminal and cd into that directory and run the command line "python hangman.py"
+                        </CardText>
+                        <CardActions border>
+                            <Button href = "https://github.com/nateelee/Hangman" colored>GitHub</Button>
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
                             <IconButton name = "N"/>
