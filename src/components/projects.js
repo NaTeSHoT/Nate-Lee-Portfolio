@@ -65,7 +65,7 @@ class Projects extends Component {
 
                     <CardTitle style = {{color:'white', height: '176px',  background: 
                     'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Transcript Evaluator</CardTitle>
-                    <CardText style = {{height: '175'}}>
+                    <CardText style = {{height: '175px'}}>
                         A program that reads school transcript text files and outputs student information and calculated major and overall GPA
                     </CardText>
                     <CardActions border>
@@ -79,7 +79,7 @@ class Projects extends Component {
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Vehicle Maintenace Program</CardTitle>
-                        <CardText style = {{height: '175'}}>
+                        <CardText style = {{height: '175px'}}>
                             This program uses inheritance with multiple types of vehicles stemming from one vehicle parent class. Multiple functions and data are derived from the vehicle parent class. 
                         </CardText>
                         <CardActions border>
@@ -99,7 +99,7 @@ class Projects extends Component {
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Screenbook</CardTitle>
-                        <CardText style = {{height: '175'}}>
+                        <CardText style = {{height: '175px'}}>
                                 A social platform where users can review and share movies. This is a single page application that 
                                 was created through the React library and router. Several other APIs were utilized such as Google's Login,
                                 Firebase Database and Storage, and a Movie Database.
@@ -116,7 +116,7 @@ class Projects extends Component {
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Nate's Portfolio</CardTitle>
-                        <CardText style = {{height: '175'}}>
+                        <CardText style = {{height: '175px'}}>
                             You're on it right now! Created with the React library, this application best represents my work and where you can learn more about me. 
                         </CardText>
                         <CardActions border>
@@ -137,7 +137,7 @@ class Projects extends Component {
 
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Weather Tracker</CardTitle>
-                        <CardText style = {{height:'175'}}>
+                        <CardText style = {{height:'175px'}}>
                             This application utilizes python and Django to read JSON files from the OpenWeather API and display real-time weather forecasts.
                         </CardText>
                         <CardActions border>
@@ -152,7 +152,7 @@ class Projects extends Component {
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Hangman</CardTitle>
-                        <CardText style = {{height: '175'}}>
+                        <CardText style = {{height: '175px'}}>
                             A python program that simulates the hangman game. To use the game, first create a directory with these files. Then open the terminal and cd into that directory and run the command line "python hangman.py"
                         </CardText>
                         <CardActions border>

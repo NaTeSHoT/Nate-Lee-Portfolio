@@ -15,7 +15,7 @@ class About extends Component {
                         be constantly looking for opportunities for a summer Software Engineering Internship. 
                         Over the course of the two years of which I have been exploring and growing within the Computer
                         Science field, I've accumulate a strong understanding of data structures, algorithms, and both object-oriented
-                        and functional programming - but most importantly I've gained an unquenchable sense of curiosity. 
+                        and functional programming. Most importantly, I've gained an unquenchable sense of curiosity for software engineering. 
                     </h3>
                 </div>
                 <div class = " pt-12 sm:pt-32 w-5/6  items-center flex flex-col">
