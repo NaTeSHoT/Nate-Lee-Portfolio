@@ -60,7 +60,7 @@ class Projects extends Component {
         else if (this.state.activeTab === 2) {
             return (
                 // c++ single proj
-                <div className = 'projects-grid'>
+                <div className = 'flex justify-between items-center w-full h-auto flex-col sm:flex-row'>
                 <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
                     <CardTitle style = {{color:'white', height: '176px',  background: 
@@ -132,7 +132,7 @@ class Projects extends Component {
         else if (this.state.activeTab === 4) {
             return (
                 // python
-                <div className = 'projects-grid'>
+                <div className = 'flex justify-between items-center w-full h-auto flex-col sm:flex-row'>
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
                         <CardTitle style = {{color:'white', height: '176px',  background: 
