@@ -37,28 +37,6 @@ class Projects extends Component {
         }
         else if (this.state.activeTab === 1) {
             return (
-                // assembly single proj
-                <div className = 'projects-grid'>
-                    <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
-
-                        <CardTitle style = {{color:'white', height: '176px',  background: 
-                        'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Full Adder Circuit</CardTitle>
-                        <CardText>
-                            A Full Adder Circuit Simulator created through x86 Assembly Language Programming
-                        </CardText>
-                        <CardActions border>
-                            <Button href = "https://github.com/nateelee/Full-Adder-Circuit" colored>GitHub</Button>
-                            
-                        </CardActions>
-                        <CardMenu style = {{color:'#fff'}}>
-                            <IconButton name = "N"/>
-                        </CardMenu>
-                    </Card>
-                </div>
-            )
-        }
-        else if (this.state.activeTab === 2) {
-            return (
                 // c++ single proj
                 <div className = 'flex justify-between items-center w-full h-auto flex-col sm:flex-row'>
                 <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
@@ -92,7 +70,7 @@ class Projects extends Component {
             </div>
             )
         }
-        else if(this.state.activeTab === 3) {
+        else if(this.state.activeTab === 2) {
             return (
                 // react single proj
                 <div className = 'flex justify-between items-center w-full h-auto flex-col sm:flex-row'>
@@ -121,6 +99,7 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button href = "https://github.com/nateelee/Nate-Lee-Portfolio" colored>GitHub</Button>
+                            <Button href = "https://nate-lee-portfolio.web.app/" colored>Portfolio</Button>
                         </CardActions>
                         <CardMenu style = {{color:'#fff'}}>
                             <IconButton name = "N"/>
@@ -129,12 +108,11 @@ class Projects extends Component {
                 </div>
             )
         }
-        else if (this.state.activeTab === 4) {
+        else if (this.state.activeTab === 3) {
             return (
                 // python
                 <div className = 'flex justify-between items-center w-full h-auto flex-col sm:flex-row'>
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
-
                         <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Weather Tracker</CardTitle>
                         <CardText style = {{height:'175px'}}>
@@ -172,12 +150,12 @@ class Projects extends Component {
         return (
             <div className = "flex flex-col items-center  w-screen bg-gray-200 h-screen">
                 <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState({activeTab: tabId})} ripple> 
-                    <Tab>Java</Tab>
-                    <Tab>Assembly</Tab>
-                    <Tab>C++</Tab>
-                    <Tab>React</Tab>
-                    <Tab>Python</Tab>
-
+                  
+                    <Tab >Java</Tab>
+                    <Tab >C++</Tab>
+                    <Tab >React</Tab>
+                    <Tab >Python</Tab>
+                    
                 </Tabs>
                 <div class = "bg-gray-200">
                     <Grid>
