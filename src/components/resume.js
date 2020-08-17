@@ -40,7 +40,7 @@ class Resume extends Component {
                         endYear = {2022}
                         schoolName = "University of California, Santa Cruz"
                         schoolDescription = "Major: Computer Science"
-                        courses = "Relevant Course Work: Advanced Data Structures and Algorithms, Computer Architecture, Operating Systems"
+                        courses = "Relevant Course Work: Upper-division level Data Structures and Algorithms, Computer Architecture, Operating Systems"
                         />
 
                         <Education 
@@ -64,19 +64,19 @@ class Resume extends Component {
                         startYear = {'March' + ' '+ 2020}
                         endYear = {'Present'}
                         jobName = {'Full Stack Web Developer at PN'}
-                        jobDescription = {'My work consisted of single paged application developement using the React library.'}
+                        jobDescription = {'PN is an organization that works with web and native app development. All programs deployed have been written with HTML/CSS, JavaScript, and the React library. At PN we utilize various team building tools such as Git, Kanban, and Slack.'}
+                        />
+                        <Experience
+                        startYear = {'August' + ' '+ 2019}
+                        endYear = {'March' + ' '+ 2020}
+                        jobName = {'Computer Science Instructor at Brilliant Minds Academy'}
+                        jobDescription = {'I was responsible for teaching C++ to a class of 10 students at Brilliant Minds Academy in Pleasanton, California. Class would begin with a lecture and end with a small coding exercise for everyone to try. The opportunity of teaching object-oriented programming allowed me to not only facilitate my knowledge of C++, but witness the benefits of working for something greater than myself.'}
                         />
                         <Experience
                         startYear = {'July' + ' '+ 2019}
                         endYear = {'March' + ' '+ 2020}
-                        jobName = {'Computer Science Tutor'}
-                        jobDescription = {'My own tutoring business in San Ramon, California where I help assist high schoolers in their advanced programming courses.'}
-                        />
-                         <Experience
-                        startYear = {'August' + ' '+ 2019}
-                        endYear = {'March' + ' '+ 2020}
-                        jobName = {'Computer Science Instructor at Brilliant Minds Academy'}
-                        jobDescription = {'I teach the fundamentals of programming in C++ and Java at Brilliant Minds Academy in Pleasanton, California.'}
+                        jobName = {'Coding Tutor'}
+                        jobDescription = {'I was a freelancing programming tutor for high school students that were interested in computer science. I would often help teach students various concepts of college level coding classes that they were enrolled in.'}
                         />
                          <hr class = "py-4" style = {{borderTop: '3px solid #7f9cf5'}}/>
                          <h2 class = "text-5xl pb-4">Skills</h2>
