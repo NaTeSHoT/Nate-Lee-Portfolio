@@ -47,14 +47,14 @@ class Resume extends Component {
                         startYear = {2019} 
                         endYear = {2020}
                         schoolName = "Diablo Valley College"
-                        schoolDescription = "Major: Computer Science"
+                        schoolDescription = "Major: Computer Science | GPA: 3.72"
                         courses = "Relevant Course Work: Multivariable Vector Calculus for Engineers III, Advanced Programming in C and C++, Discrete Mathematics, Physics for Engineers II: Thermodynamics and Electromagnetism, Object-Oriented Programming in C++, Linear Algebra, Differential Equations, Assembly Language Programming, Program Design and Data Structures "
                         />
                          <Education 
                         startYear = {2018} 
                         endYear = {2019}
                         schoolName = "Arizona State University"
-                        schoolDescription = "Major: Computer Science"
+                        schoolDescription = "Major: Computer Science | GPA: 3.76"
                         courses = "Relevant Course Work: Principles of Programming, Calculus for Engineers I, Physics for Engineers I: Mechanics, Object-Oriented Programming in Java and Data Structures, Calculus for Engineers II "
                         />
 
