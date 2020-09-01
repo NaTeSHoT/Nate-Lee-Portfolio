@@ -93,6 +93,21 @@ class Projects extends Component {
                     <div class = "w-4 h-4"></div>
                     <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style = {{color:'white', height: '176px',  background: 
+                        'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Covid-19 Statewide Tracker</CardTitle>
+                        <CardText style = {{height: '175px'}}>
+                            This web app handles and processes real-time covid updates from The Atlantic’s covid API. Various libraries like React and other Node packages are utilized. The interface and experience is designed to help raise awareness of the coronavirus spread throughout the United States.
+                        </CardText>
+                        <CardActions border>
+                            <Button href = "https://github.com/nateelee/Covid-State-Tracker" colored>GitHub</Button>
+                            <Button href = "https://covid19statewidetracker.web.app/" colored>Covid-19 Tracker</Button>
+                        </CardActions>
+                        <CardMenu style = {{color:'#fff'}}>
+                            <IconButton name = "N"/>
+                        </CardMenu>
+                    </Card>
+                    <div class = "w-4 h-4"></div>
+                    <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style = {{color:'white', height: '176px',  background: 
                         'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Nate's Portfolio</CardTitle>
                         <CardText style = {{height: '175px'}}>
                             You're on it right now! Created with the React library, this application best represents my work and where you can learn more about me. 
