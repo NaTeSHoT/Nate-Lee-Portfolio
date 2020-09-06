@@ -85,33 +85,50 @@ class Resume extends Component {
                          progress = {75}
                          />
                          <Skills
-                         skill = 'ReactJS'
+                         skill = 'React'
                          progress = {75}
                          />
-                          <Skills
-                         skill = 'C++'
+                         <Skills
+                         skill = 'Node.js'
+                         progress = {90}
+                         />
+                         <Skills
+                         skill = 'Java'
+                         progress = {90}
+                         />
+                         <Skills
+                         skill = 'Git'
                          progress = {85}
                          />
                           <Skills
-                         skill = 'Java'
-                         progress = {80}
+                         skill = 'Tailwind'
+                         progress = {70}
+                         />
+                           <Skills
+                         skill = 'HTML/CSS'
+                         progress = {60}
+                         />
+                          <Skills
+                         skill = 'Firebase'
+                         progress = {90}
                          />
                           <Skills
                          skill = 'Python'
                          progress = {60}
                          />
                           <Skills
-                         skill = 'Assembly Language'
+                         skill = 'C++'
+                         progress = {85}
+                         />
+                          <Skills
+                         skill = 'x86 Assembly Language'
                          progress = {80}
                          />
                           <Skills
-                         skill = 'HTML/CSS'
-                         progress = {60}
+                         skill = 'Kanban'
+                         progress = {90}
                          />
-                          <Skills
-                         skill = 'Heavy Lifting'
-                         progress = {95}
-                         />
+                         
                     
 
                     </Cell>
