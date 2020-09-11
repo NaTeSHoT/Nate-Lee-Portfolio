@@ -37,36 +37,23 @@ class Projects extends Component {
         }
         else if (this.state.activeTab === 1) {
             return (
-                // c++ single proj
+                // react native single proj
                 <div className = 'flex justify-between items-center w-full h-auto flex-col sm:flex-row'>
                 <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
 
                     <CardTitle style = {{color:'white', height: '176px',  background: 
-                    'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Transcript Evaluator</CardTitle>
+                    'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Homemade</CardTitle>
                     <CardText style = {{height: '175px'}}>
-                        A program that reads school transcript text files and outputs student information and calculated major and overall GPA
+                        Homemade is an Expo and React Native app that enables an eCommerce platform for people to purchase and sell homemade goods. Authentication system will be supported by Google and the Payment system will be enabled through fintech APIs such as Paypal and Stripe.
                     </CardText>
                     <CardActions border>
-                        <Button href = "https://github.com/nateelee/Student-Transcript-Evaluator" colored>GitHub</Button>
+                        <Button href = "https://github.com/nateelee/Homemade" colored>GitHub</Button>
+                        <Button href = "https://expo.io/@nateshot/homemade" colored>Expo</Button>
                     </CardActions>
                     <CardMenu style = {{color:'#fff'}}>
                         <IconButton name = "N"/>
                     </CardMenu>
                 </Card>
-                <div class = "w-4 h-4"></div>
-                    <Card shadow = {5} style = {{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style = {{color:'white', height: '176px',  background: 
-                        'url(https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/lastpng.jpg?alt=media&token=a56c04a8-069a-426c-aa4b-587330dfa2c0) center/ cover'}}>Vehicle Maintenace Program</CardTitle>
-                        <CardText style = {{height: '175px'}}>
-                            This program uses inheritance with multiple types of vehicles stemming from one vehicle parent class. Multiple functions and data are derived from the vehicle parent class. 
-                        </CardText>
-                        <CardActions border>
-                            <Button href = "https://github.com/nateelee/Vehicle-Maintenace-Program" colored>GitHub</Button>
-                        </CardActions>
-                        <CardMenu style = {{color:'#fff'}}>
-                            <IconButton name = "N"/>
-                        </CardMenu>
-                    </Card>
             </div>
             )
         }
@@ -167,7 +154,7 @@ class Projects extends Component {
                 <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState({activeTab: tabId})} ripple> 
                   
                     <Tab >Java</Tab>
-                    <Tab >C++</Tab>
+                    <Tab >Expo</Tab>
                     <Tab >React</Tab>
                     <Tab >Python</Tab>
                     
