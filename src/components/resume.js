@@ -93,6 +93,10 @@ class Resume extends Component {
                          progress = {90}
                          />
                          <Skills
+                         skill = 'Expo'
+                         progress = {60}
+                         />
+                         <Skills
                          skill = 'Java'
                          progress = {90}
                          />
@@ -117,6 +121,10 @@ class Resume extends Component {
                          progress = {60}
                          />
                           <Skills
+                         skill = 'Django'
+                         progress = {55}
+                         />
+                          <Skills
                          skill = 'C++'
                          progress = {85}
                          />
@@ -126,6 +134,10 @@ class Resume extends Component {
                          />
                           <Skills
                          skill = 'Kanban'
+                         progress = {90}
+                         />
+                         <Skills
+                         skill = 'Xcode'
                          progress = {90}
                          />
                          

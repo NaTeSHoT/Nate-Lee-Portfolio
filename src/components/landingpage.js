@@ -21,7 +21,7 @@ class Landing extends Component {
                             <h1 class = "pb-2 sm:pb-0 bg-opacity-75 w-3/4 m-auto rounded text-center font-bold text-4xl sm:text-6xl items-center text-gray-800">Nathaniel Lee's Portfolio</h1>
                             <hr class = "border-dotted border-t-8 border-gray-800  w-1/3 m-auto"/>
             
-                            <p class = "text-2xl sm: text-base p-2">HTML/CSS | Firebase | JavaScript | React | Node.js | C++ | Git | Java | Python </p>
+                            <p class = "text-2xl sm: text-base p-2">HTML/CSS | Firebase | JavaScript | React | Node.js | Expo | Git | Java | Python </p>
                             <div className = "justify-evenly flex">
                                 <a href = "http://github.com/nateelee" target = "_blank" rel = "noopener noreferrer">
                                     <i className = "fa fa-github-square fa-4x text-gray-800"  aria-hidden = "true"/>
