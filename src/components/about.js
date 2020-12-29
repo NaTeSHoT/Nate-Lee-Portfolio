@@ -26,7 +26,7 @@ class About extends Component {
                         <img class = "rounded sm:w-1/3 sm:h-1/3 "src = "https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/IMG_0257.jpeg?alt=media&token=a008173b-393f-4d96-a22c-be870acba052"/>
                     </div>
                     <div class = "my-12 h-auto w-full flex sm:flex-row flex-col bg-gray-400 bg-opacity-50 justify-between rounded" data-aos = "fade-left" data-aos-easing="ease-in-sine" > 
-                        <img class = "rounded  h-1/2 sm:w-1/3 sm:h-1/3"src = "https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/IMG_9407.jpeg?alt=media&token=e6084ee6-5180-43c7-949e-6cde9d7420e8"/>
+                        <img class = "rounded  h-1/2 sm:w-1/3 sm:h-1/3"src = "https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/IMG_0111.jpeg?alt=media&token=b76f8a94-c45f-4329-ab93-ec13d2465281"/>
                             <h1 class = " sm:pr-32 sm:w-1/2 flex  text-sm sm:text-4xl items-center  sm:text-justify text-gray-800 rounded ">
                                 I am proud to have been born and raised in the Bay Area.
                             </h1>

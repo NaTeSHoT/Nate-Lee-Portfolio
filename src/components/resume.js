@@ -39,8 +39,8 @@ class Resume extends Component {
                         startYear = {2020} 
                         endYear = {2022}
                         schoolName = "University of California, Santa Cruz"
-                        schoolDescription = "Major: Computer Science"
-                        courses = "Relevant Course Work: Upper-division level Data Structures and Algorithms, Computer Architecture, Operating Systems"
+                        schoolDescription = "Major: Computer Science | GPA: 3.90"
+                        courses = "Relevant Course Work: Upper-division level Data Structures and Algorithms, Computer Architecture, Analysis of Algorithms, Computational Models, Operating Systems"
                         />
 
                         <Education 
@@ -65,6 +65,12 @@ class Resume extends Component {
                         endYear = {'Present'}
                         jobName = {'Full Stack Web Developer at PN'}
                         jobDescription = {'PN is an organization that works with web and native app development. All programs deployed have been written with HTML/CSS, JavaScript, and the React library. At PN we utilize various team building tools such as Git, Kanban, and Slack.'}
+                        />
+                        <Experience
+                        startYear = {'October' + ' '+ 2020}
+                        endYear = {'Present'}
+                        jobName = {'Python Instructor at AYC Logic'}
+                        jobDescription = {'AYC Logic is an online coding school where I teach an object-oriented python course. New concepts are covered weekly, along with homework and tests.'}
                         />
                         <Experience
                         startYear = {'August' + ' '+ 2019}

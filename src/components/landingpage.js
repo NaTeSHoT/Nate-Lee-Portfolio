@@ -14,7 +14,7 @@ class Landing extends Component {
                 <div class = "w-5/6 pt-16 sm:pt-12 flex flex-col items-center justify-center">
                         <img
                         class = "sm:w-1/3 sm:h-1/3 pb-2 sm:pb-4 rounded"
-                        src = "https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/IMG_1338.JPEG?alt=media&token=0e2a5534-7a38-4a44-a7da-0239bc01478a"
+                        src = "https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/IMG_0111.jpeg?alt=media&token=b76f8a94-c45f-4329-ab93-ec13d2465281"
                         alt = "avatar"
                          />
                          <div class = "bg-gray-400 h-full  bg-opacity-50 sm:w-3/4 m-auto rounded text-center" >
@@ -44,7 +44,7 @@ class Landing extends Component {
                     </div>
 
                     <div class = "my-12 h-auto w-full flex sm:flex-row flex-col bg-gray-400 bg-opacity-50 justify-between rounded" data-aos = "fade-left" data-aos-easing="ease-in-sine" > 
-                        <img class = "rounded  h-1/2 sm:w-1/3 sm:h-1/3"src = "https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/IMG_9407.jpeg?alt=media&token=e6084ee6-5180-43c7-949e-6cde9d7420e8"/>
+                        <img class = "rounded  h-1/2 sm:w-1/3 sm:h-1/3"src = "https://firebasestorage.googleapis.com/v0/b/nate-lee-portfolio.appspot.com/o/IMG_1338.JPEG?alt=media&token=0e2a5534-7a38-4a44-a7da-0239bc01478a"/>
                         <h1 class = " sm:pr-32 sm:w-1/2 flex  text-sm sm:text-4xl items-center  sm:text-justify text-gray-800 rounded ">
                             I am proud to have been born and raised in the Bay Area.
                         </h1>
